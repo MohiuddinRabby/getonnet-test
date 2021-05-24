@@ -3,6 +3,7 @@ import fakeData from "../../../fakeData";
 import AllWeapon from "./AllWeapon";
 
 const FindweaponForm = () => {
+  // eslint-disable-next-line no-unused-vars
   const [weaponList, setWeaponList] = useState(fakeData);
   let search = weaponList;
   // search country state

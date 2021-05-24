@@ -4,14 +4,16 @@ import FindweaponForm from "../Findweapon/FindweaponForm";
 
 const Home = () => {
   return (
-    <div id="home" className="home-section">
-      <div className="carousel-sectiona">
-        <BCarousel />
+    <>
+      <div id="home" className="home-section">
+        <div className="carousel-sectiona">
+          <BCarousel />
+        </div>
       </div>
-      <div className="search-item-section">
-        <FindweaponForm/>
+      <div id="searchs" className="search-item-section">
+        <FindweaponForm />
       </div>
-    </div>
+    </>
   );
 };
 

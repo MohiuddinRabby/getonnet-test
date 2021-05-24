@@ -1,16 +1,16 @@
 /* Home css */
 .home-section {
   position: relative;
-  height: 80vh;
+  height: 60vh;
   background-color: #e4f2ff;
 }
 
 #home {
   font-family: "Montserrat", sans-serif;
-  /* background-image: url("./app/other/img/background6.jpg"); */
   background-size: cover;
   background-position: center;
 }
+/* Carousel image css */
 .circular-square {
   position: relative;
   width: 200px;
@@ -23,4 +23,13 @@
 .circular-square img {
   width: 80%;
   height: auto;
+}
+
+.search-item-section {
+  /* position: relative; */
+  background-color: white;
+  align-items: center;
+  margin-top: -300px;
+  height: 300px;
+  width: 300px;
 }
