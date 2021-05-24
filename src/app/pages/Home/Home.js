@@ -1,9 +1,16 @@
 import React from "react";
 import BCarousel from "../../components/BCarousel";
+import FindweaponForm from "../Findweapon/FindweaponForm";
+
 const Home = () => {
   return (
     <div id="home" className="home-section">
-      <BCarousel />
+      <div className="carousel-sectiona">
+        <BCarousel />
+      </div>
+      <div className="search-item-section">
+        <FindweaponForm/>
+      </div>
     </div>
   );
 };
