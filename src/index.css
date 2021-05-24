@@ -1,0 +1,26 @@
+/* Home css */
+.home-section {
+  position: relative;
+  height: 80vh;
+  background-color: #e4f2ff;
+}
+
+#home {
+  font-family: "Montserrat", sans-serif;
+  /* background-image: url("./app/other/img/background6.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.circular-square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+
+.circular-square img {
+  width: 80%;
+  height: auto;
+}
