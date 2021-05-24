@@ -1,8 +1,9 @@
 /* Home css */
 .home-section {
   position: relative;
-  height: 60vh;
+  height: 50vh;
   background-color: #e4f2ff;
+  top: -3px;
 }
 
 #home {
@@ -26,10 +27,14 @@
 }
 
 .search-item-section {
-  /* position: relative; */
-  background-color: white;
-  align-items: center;
-  margin-top: -300px;
-  height: 300px;
-  width: 300px;
+  background: #fff;
+  /* padding: 20px 170px; */
+  position: relative;
+  /* margin: 0 70px; */
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+  /* margin-top: -130px; */
+  width: 1200px;
+  height: 562px;
+  top: -120px;
+  left: 360px;
 }

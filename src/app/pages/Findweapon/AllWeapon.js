@@ -6,11 +6,12 @@ const AllWeapon = (props) => {
     <div>
       <img
         src={img}
+        className="rounded-circle"
         style={{
           width: "92px",
-          height: "58px",
+          height: "70px",
           backgroundColor: "#f4f4f4",
-          borderRadius: "50%",
+          // borderRadius: "50%",
         }}
         alt=""
       />

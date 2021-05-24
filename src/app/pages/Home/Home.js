@@ -10,8 +10,10 @@ const Home = () => {
           <BCarousel />
         </div>
       </div>
-      <div id="searchs" className="search-item-section">
-        <FindweaponForm />
+      <div  className="search-item-section">
+        <div className="container text-center">
+          <FindweaponForm />
+        </div>
       </div>
     </>
   );
