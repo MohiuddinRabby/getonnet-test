@@ -11,7 +11,9 @@ const RiflesListItems = (props) => {
               {/* <h6 className="mb-0">Mailchimp</h6> */}
               <button
                 className={
-                  useablity ? "btn btn-success btn-sm" : "btn btn-danger btn-sm"
+                  useablity
+                    ? "btn button-main btn-sm"
+                    : "btn button-secondary btn-sm"
                 }
               >
                 {useablity ? "New" : "Used"}
@@ -37,7 +39,7 @@ const RiflesListItems = (props) => {
             <div className="mt-3">
               <h4>{name}</h4>
               <span>{category}</span>
-              <h5 className="py-2">{price}</h5>
+              <h5 className="py-2 color-main">{price}</h5>
             </div>
           </div>
         </div>

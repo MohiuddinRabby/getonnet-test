@@ -16,7 +16,7 @@ const BCarousel = () => {
                   earum nisi quae quam aperiam commodi repellendus atque harum!
                   Odio, nostrum!
                 </p>
-                <button className="btn btn-success">Order Now</button>
+                <button className="btn button-main">Order Now</button>
               </div>
               <div className="col-md-6 text-center pt-5">
                 <img className="circular-square" src={IMG} alt="" />

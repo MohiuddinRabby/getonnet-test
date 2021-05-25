@@ -15,7 +15,7 @@ const RiflesList = () => {
         </ul>
         <ul>
           <li>
-            <button className="btn btn-success btn-sm">See all</button>
+            <button className="btn button-main btn-sm">See all</button>
           </li>
         </ul>
       </div>

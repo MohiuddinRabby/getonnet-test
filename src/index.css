@@ -1,3 +1,15 @@
+/* Global css */
+.button-main {
+  background-color: #458502;
+  color: #fff;
+}
+.button-secondary {
+  background-color: #856802;
+  color: #fff;
+}
+.color-main {
+  color: #458502;
+}
 /* Home css */
 .home-section {
   position: relative;
@@ -49,4 +61,19 @@
   display: flex;
   align-items: center;
   list-style: none;
+}
+
+/* Footer css */
+.footer-card {
+  height: 330px;
+}
+#footer-card-one {
+  background-color: #f0ffe4;
+}
+#footer-card-one img {
+  width: 250px;
+  height: 130px;
+}
+#footer-card-two {
+  background-color: #e4f2ff;
 }
