@@ -1,4 +1,5 @@
 /* Global css */
+
 .button-main {
   background-color: #458502;
   color: #fff;
@@ -9,6 +10,22 @@
 }
 .color-main {
   color: #458502;
+}
+.color-secondary {
+  color: #e70808;
+}
+/* font size */
+.font-title {
+  font-size: 36px;
+  font-weight: 700px;
+}
+.footer-font-title-main {
+  font-size: 24px;
+  font-weight: 700px;
+}
+.footer-font-title-secondary {
+  font-size: 20px;
+  font-weight: 700px;
 }
 /* Home css */
 .home-section {
@@ -24,19 +41,38 @@
   background-position: center;
 }
 /* Carousel image css */
-.circular-square {
-  position: relative;
-  width: 200px;
-  height: 200px;
+/* .circular-square { */
+/* position: absolute;
+  width: 480px;
+  height: 480px;
   overflow: hidden;
   border-radius: 50%;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; */
+/* position: absolute;
+  width: 480px; */
+/* height: 480px; */
+/* left: 100px;; */
+/* left: 1065px;
+  top: 82px; */
+/* top: 20px;
+  border-radius: 50%;
+  background-color: #f4f4f4; */
+/* } */
+
+.circular {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+.circular img {
+  width: 200px;
+  height: 180px;
+  margin-top: 50px;
+
 }
 
-.circular-square img {
-  width: 80%;
-  height: auto;
-}
 /* Search item css */
 .search-item-section {
   background: #fff;

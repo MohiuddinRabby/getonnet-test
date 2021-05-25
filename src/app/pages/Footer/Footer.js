@@ -9,8 +9,10 @@ const Footer = () => {
           <div class="card footer-card" id="footer-card-one">
             <div className="row">
               <div className="col-md-6 p-4 mt-4">
-                <h6>-20% Discount</h6>
-                <h5>Discount on Rifles</h5>
+                <h6 className="color-secondary footer-font-title-secondary">
+                  -20% Discount
+                </h6>
+                <h5 className="footer-font-title-main">Discount on Rifles</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
                   harum.
@@ -28,8 +30,10 @@ const Footer = () => {
           <div class="card footer-card" id="footer-card-two">
             <div className="row">
               <div className="col-md-6 p-4 mt-4">
-                <h6>-20% Discount</h6>
-                <h5>Discount on Shotgun</h5>
+                <h6 className="color-secondary footer-font-title-secondary">
+                  -20% Discount
+                </h6>
+                <h5 className="footer-font-title-main">Discount on Shotgun</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
                   harum.
