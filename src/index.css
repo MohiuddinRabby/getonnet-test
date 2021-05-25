@@ -25,16 +25,29 @@
   width: 80%;
   height: auto;
 }
-
+/* Search item css */
 .search-item-section {
   background: #fff;
-  /* padding: 20px 170px; */
   position: relative;
-  /* margin: 0 70px; */
   box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
-  /* margin-top: -130px; */
   width: 1200px;
   height: 562px;
   top: -120px;
   left: 360px;
 }
+/* Rifles list css */
+#riflesListNav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  color: #000;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#riflesListNav ul {
+  display: flex;
+  /* align-items: center; */
+  list-style: none;
+}
+

@@ -11,7 +11,6 @@ const AllWeapon = (props) => {
           width: "92px",
           height: "70px",
           backgroundColor: "#f4f4f4",
-          // borderRadius: "50%",
         }}
         alt=""
       />
