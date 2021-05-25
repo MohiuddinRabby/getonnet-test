@@ -1,6 +1,7 @@
 import React from "react";
 import BCarousel from "../../components/BCarousel";
 import FindweaponForm from "../Findweapon/FindweaponForm";
+import Footer from "../Footer/Footer";
 import RiflesList from "../RiflesList/RiflesList";
 
 const Home = () => {
@@ -16,8 +17,11 @@ const Home = () => {
           <FindweaponForm />
         </div>
       </div>
-      <div className="container-fluid rifles-list-section">
+      <div className="container-fluid rifles-list-section py-5">
         <RiflesList />
+      </div>
+      <div className="footer-section">
+        <Footer />
       </div>
     </>
   );

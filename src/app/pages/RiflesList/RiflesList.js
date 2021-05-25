@@ -3,9 +3,10 @@ import fakeDataTwo from "../../../fakeDataTwo";
 import RiflesListItems from "./RiflesListItems";
 
 const RiflesList = () => {
+  // eslint-disable-next-line no-unused-vars
   const [riflesItems, setRiflesItems] = useState(fakeDataTwo);
   return (
-    <div>
+    <div className="container">
       <div id="riflesListNav">
         <ul>
           <li>

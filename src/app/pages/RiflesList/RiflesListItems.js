@@ -1,7 +1,7 @@
 import React from "react";
 
 const RiflesListItems = (props) => {
-  const { name, img, useablity } = props.rifles;
+  const { name, img, useablity, category, price } = props.rifles;
   return (
     <div>
       <div className="card p-3 mb-2">
@@ -19,26 +19,25 @@ const RiflesListItems = (props) => {
             </div>
           </div>
           <div className="badge">
-            <span><i className="far fa-heart fa-2x"></i></span>
+            <span>
+              <i className="far fa-heart fa-2x"></i>
+            </span>
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="heading">Senior Product</h3>
-          <div className="mt-5">
-            <div className="progress">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "50%" }}
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
+          <div className="">
+            <div className="text-center">
+              <img
+                src={img}
+                className="card-img-top"
+                style={{ width: "180px", height: "112px" }}
+                alt=""
+              />
             </div>
             <div className="mt-3">
-              <span className="text1">
-                32 Applied <span className="text2">of 50 capacity</span>
-              </span>
+              <h4>{name}</h4>
+              <span>{category}</span>
+              <h5 className="py-2">{price}</h5>
             </div>
           </div>
         </div>
