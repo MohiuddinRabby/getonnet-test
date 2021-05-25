@@ -40,24 +40,6 @@
   background-size: cover;
   background-position: center;
 }
-/* Carousel image css */
-/* .circular-square { */
-/* position: absolute;
-  width: 480px;
-  height: 480px;
-  overflow: hidden;
-  border-radius: 50%;
-  background-color: #f4f4f4; */
-/* position: absolute;
-  width: 480px; */
-/* height: 480px; */
-/* left: 100px;; */
-/* left: 1065px;
-  top: 82px; */
-/* top: 20px;
-  border-radius: 50%;
-  background-color: #f4f4f4; */
-/* } */
 
 .circular {
   background-color: #fff;
@@ -70,7 +52,6 @@
   width: 200px;
   height: 180px;
   margin-top: 50px;
-
 }
 
 /* Search item css */
@@ -97,6 +78,9 @@
   display: flex;
   align-items: center;
   list-style: none;
+}
+.riflesItem_icon {
+  color: #458502;
 }
 
 /* Footer css */

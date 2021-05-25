@@ -22,8 +22,10 @@ const RiflesList = () => {
       <div className="riflesList">
         <div className="row">
           {riflesItems.map((rifles) => (
-            <div className="col-md-3">
-              <RiflesListItems rifles={rifles}></RiflesListItems>
+            <div className="col-md-3" key={rifles.id}>
+              <RiflesListItems
+                rifles={rifles}
+              ></RiflesListItems>
             </div>
           ))}
         </div>

@@ -13,7 +13,7 @@ const fakeDataTwo = [
     img: "https://i.ibb.co/bQHg1yk/shotgun.png",
     useablity: false,
     category: "Shotgun",
-    price: "Kr 1200",
+    price: "Kr 1000",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const fakeDataTwo = [
     img: "https://i.ibb.co/zb52NJN/rimfire-rifle.png",
     useablity: true,
     category: "Shotgun",
-    price: "Kr 1200",
+    price: "Kr 1500",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const fakeDataTwo = [
     img: "https://i.ibb.co/bQHg1yk/shotgun.png",
     useablity: false,
     category: "Shotgun",
-    price: "Kr 1200",
+    price: "Kr 1400",
   },
 ];
 export default fakeDataTwo;

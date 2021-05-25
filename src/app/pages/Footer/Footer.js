@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="container py-5">
       <div className="row">
         <div className="col-md-6">
-          <div class="card footer-card" id="footer-card-one">
+          <div className="card footer-card" id="footer-card-one">
             <div className="row">
               <div className="col-md-6 p-4 mt-4">
                 <h6 className="color-secondary footer-font-title-secondary">
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div class="card footer-card" id="footer-card-two">
+          <div className="card footer-card" id="footer-card-two">
             <div className="row">
               <div className="col-md-6 p-4 mt-4">
                 <h6 className="color-secondary footer-font-title-secondary">
